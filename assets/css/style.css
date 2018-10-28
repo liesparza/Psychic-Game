@@ -1,0 +1,118 @@
+body {
+
+    
+    font-family:"Helvetica";
+    color:black;
+    text-align:center;
+    font-size:18px;
+}
+
+.wrappper {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrappper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 { 
+font-weight:400;
+font-size:55px;
+font-family: 'Lobster', cursive;
+}
+
+h2, h3 {font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+font-weight:200;
+font-size:24px;
+text-transform:uppercase;
+}
+
+
+button {
+
+    border-radius: 10px; 
+    color: #000;
+    border: solid 3px #000;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 80px;
+    margin: 10px;
+ 
+  }
+  button:hover {
+    
+    border: solid 3px #999;
+    color: #999;
+  }
+
+
+
+#alphabet {
+
+    margin:15px auto;
+    padding: 0;
+    max-width: 900px;
+}
+
+#alphabet:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  #alphabet li {
+    float: left;
+    margin: 0 10px 10px 0;
+    list-style: none;
+    width: 45px;
+    height: 30px;
+    padding-top: 10px;
+    color: #000;
+    cursor: pointer;
+    border-radius: 30px;
+    border: solid 3px #000;
+  }
+  #alphabet li:hover {
+  
+    border: solid 3px #999;
+    color: #999;
+  }
+
+  #my-word {
+    margin: 0;
+    display: block;
+    padding: 0;
+    display: block;
+  }
+  
+  #my-word li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.6em;
+  }
+
+  #mylives {
+    font-size: 1.6em;
+    text-align: center;
+    display: block;
+  }
+
+
+  .active {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+
+    cursor: default;
+  }
+  .active:hover {
+ 
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+  
+  }

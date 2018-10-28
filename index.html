@@ -1,0 +1,42 @@
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Psychic Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+ <!-- <link rel="stylesheet" href="assets/css/reset.css">-->
+
+</head>
+
+<body>
+
+<!-- PENDIENTE ONKEYUP Y SUBIR -->
+<div class="wrapper" id="game">
+    <h1>Letter Game</h1>
+    <p>Click on the letter you guess i'm thinking</p>
+
+ </div>
+   
+ <div class="wrapper">      
+  <div id="buttons"></div>  <!-- alphabet div space  -->
+  <div id="hold"> </div> <!-- letters space-->
+ <p id="mylives"></p> <!--- results -->
+ 
+<div class="scores">
+    <p >Wins: <span id="player-wins">0</span></p>
+    <p >Losses: <span id="player-losses">0</span></p>
+</div>
+
+
+    <div class="container">
+        <button id="reset"> <i class="fas fa-redo"></i></button>
+      </div>
+
+  </div>
+
+
+<script  src="assets/javascript/game.js"></script>
+</body>
+</html>
